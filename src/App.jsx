@@ -8,7 +8,7 @@ const defaultNotifications = [
     title: 'Campus placement drive by TechCorp',
     message: 'Eligible students invited for on-campus interviews in Block B.',
     receivedAt: new Date(Date.now() - 1000 * 60 * 25),
-    read: false,
+    read: true,
   },
   {
     id: 'event-001',
@@ -17,7 +17,7 @@ const defaultNotifications = [
     title: 'Career fair registration',
     message: 'Register for the campus career fair before Friday.',
     receivedAt: new Date(Date.now() - 1000 * 60 * 60 * 2),
-    read: true,
+    read: false,
   },
   {
     id: 'result-001',
